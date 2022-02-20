@@ -327,6 +327,72 @@ li img {
   width: 70px;
   height: 70px;
 }
+
+.portionBtnContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 160px;
+  height: 30px;
+  background-color: #f9eee7;
+  border-radius: 15px;
+  margin: 0px;
+  border: 0px none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.personNb {
+  padding: 4px 0px;
+}
+
+.btnContainerL {
+  background-color: #f6ab80;
+  width: fit-content;
+  border-radius: 15px 0 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainerR {
+  background-color: #f6ab80;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 15px 15px 0;
+}
+
+.btnContainerL button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 15px;
+  cursor: pointer;
+  background: transparent none repeat scroll 0% 0%;
+  border: 0px none;
+  border-radius: 0px;
+}
+
+.btnContainerR button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 15px;
+  cursor: pointer;
+  background: transparent none repeat scroll 0% 0%;
+  border: 0px none;
+  border-radius: 0px;
+}
+
+.prs_nb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .ingredientsContainer li {
   display: flex;
   flex-wrap: wrap;
@@ -426,6 +492,92 @@ li img {
   padding: 2rem;
 }
 
+.footer {
+  padding: 40px 0;
+  color: #f0f9ff;
+  background-color: #fe5f55;
+  opacity: 70%;
+  margin-top: 50px;
+}
+
+.footerContainer {
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerMainContent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  margin-left: 2%;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.propos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.InfoLegale {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.footer .item.text {
+  margin-bottom: 35px;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: space-between;
+  justify-self: center;
+  width: 40%;
+  color: #ffffff;
+  margin: 18px;
+  max-width: 270px;
+}
+
+.socialIcon {
+  height: fit-content;
+  background-color: #fff7f7;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 @media (min-width: 800px) {
   .bobun {
     margin-top: 10px;
@@ -435,7 +587,6 @@ li img {
     margin-top: 100px;
     padding: 80px;
   }
-
   .ingredientsContainer {
     background-color: #f9eee7;
     display: flex;
@@ -447,11 +598,25 @@ li img {
     width: 25rem;
   }
 
+  .recipes {
+    margin-top: 13rem;
+  }
+
+  .recipes h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
   .recipeContainer {
     height: auto;
     width: 50%;
     margin: 2rem;
     float: left;
+  }
+}
+
+@media (min-width: 1000px) {
+  .news {
+    margin-bottom: 5rem;
   }
 }
 

@@ -14,8 +14,9 @@
         <nav class="navbar">
 
             <a href="#" class="logo">
-                <img src="svg/logo.png" class="logo" alt="photo Logo">   
+                <img src="svg/logo.png" class="logo" alt="photo Logo" height="35px" width="60px">   
             </a>
+
             <ul class="nav">
                 <li><a href="#kalendar">Calendrier</a></li>
                 <li><a href="#community">Communauté</a></li>
@@ -35,7 +36,7 @@
     </header>
 
     <div class="searchbarre">
-        <input class="search"onkeyup="search()" type="text"
+        <input class="search" onkeyup="search()" type="text"
         name="search" placeholder="Rechercher">
 
     
@@ -53,11 +54,10 @@
         </div>
     </div>
     
-    <div class="RecipeAll">
     <section class="recipeContainer">
         <h2 class="bobun">Bo Bun</h2>
-        <img src="svg/video recette.png" alt="video_recette">
-            <div class="descriptionFilter">
+        <img src="svg/video.png" alt="video_recette" height="265px" width="145px">
+        <div class="descriptionFilter">
                    
         
                     <div class="time"><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +67,7 @@
                     </div>
                     <div class="difficulty"><svg width="25" height="25" viewBox="0 0 26 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_101_938)">
-                        <path d="M4.71447 11.415L12.1811 12.8778C12.2421 12.8778 12.3029 12.8778 12.3336 12.9082C12.7602 12.9082 13.0955 12.573 13.1259 12.1463C13.1259 11.7197 12.7906 11.3844 12.364 11.354L4.71446 11.3542C4.68385 11.3542 4.65345 11.415 4.71446 11.415L4.71447 11.415ZM12.7297 11.9331C12.8211 12.1465 12.7601 12.3902 12.5469 12.5122C12.3334 12.6036 12.0898 12.5426 11.9678 12.3294C11.8764 12.1159 11.9374 11.8723 12.1506 11.7503C12.3944 11.6285 12.6383 11.7199 12.7297 11.9331Z" fill="black"/>
+                         <path d="M4.71447 11.415L12.1811 12.8778C12.2421 12.8778 12.3029 12.8778 12.3336 12.9082C12.7602 12.9082 13.0955 12.573 13.1259 12.1463C13.1259 11.7197 12.7906 11.3844 12.364 11.354L4.71446 11.3542C4.68385 11.3542 4.65345 11.415 4.71446 11.415L4.71447 11.415ZM12.7297 11.9331C12.8211 12.1465 12.7601 12.3902 12.5469 12.5122C12.3334 12.6036 12.0898 12.5426 11.9678 12.3294C11.8764 12.1159 11.9374 11.8723 12.1506 11.7503C12.3944 11.6285 12.6383 11.7199 12.7297 11.9331Z" fill="black"/>
                         <path d="M11.145 3.36931C11.1754 3.49112 11.3278 3.58275 11.4498 3.58275C11.724 3.55235 12.0289 3.55235 12.3031 3.55235C12.7602 3.55235 13.1868 3.58275 13.6135 3.64376C13.7963 3.67416 13.9792 3.52195 13.9792 3.33891V1.236C13.9792 1.05318 13.8267 0.931152 13.6743 0.931152C12.699 0.961552 11.7238 1.14459 10.8401 1.41882C10.6877 1.47983 10.5963 1.63226 10.6573 1.81508L11.145 3.36931Z" fill="black"/>
                         <path d="M14.4365 3.79607C15.0766 3.9485 15.7165 4.19233 16.3259 4.46655C16.4784 4.55796 16.6916 4.46655 16.7526 4.28372L17.5755 1.78456C17.6365 1.63214 17.5451 1.44931 17.3927 1.3883C16.4783 1.11407 15.5336 0.931247 14.5585 0.900635C14.3757 0.900635 14.2536 1.02245 14.2536 1.20548V3.4912C14.1928 3.64363 14.2842 3.76565 14.4365 3.79605L14.4365 3.79607Z" fill="black"/>
                         <path d="M23.2441 6.29517L20.6842 8.15421C20.5623 8.24563 20.5317 8.39805 20.5927 8.55047C20.867 9.03814 21.0804 9.52582 21.2632 10.0439C21.3242 10.1963 21.4766 10.2877 21.6289 10.2267L24.6155 9.25133C24.7679 9.19032 24.8593 9.0379 24.7983 8.85508C24.4934 7.97138 24.0974 7.11783 23.6401 6.35592C23.6099 6.23411 23.3965 6.20371 23.2441 6.29512L23.2441 6.29517Z" fill="black"/>
@@ -98,13 +98,13 @@
                     </svg>                   
                     <p>Élevé</p></div>
                 
-            </div>
+        </div>
     
-                <div class="DescriptionJauges">
+        <div class="DescriptionJauges">
                     <div class="category-jauge">
                     <label for="file">Calorie</label>
                     <div class="jauges">
-                    <progress id="file" max="100" value="50"> 50% </progress>
+                    <progress max="100" value="50"> 50% </progress>
                     <p>780/1872kcal</p>
                     </div>
                     </div>            
@@ -112,14 +112,14 @@
                     <div class="category-jauges">
                     <label for="file">Protéines</label>
                     <div class="jauges">
-                    <progress id="file" max="100" value="65"> 60% </progress><p >1080/1872kcal</p>
+                    <progress max="100" value="65"> 60% </progress><p >1080/1872kcal</p>
                     </div>
                     </div>  
 
                     <div class="category-jauges">
                     <label for="file">Glucide</label>
                     <div class="jauges">
-                    <progress id="file" max="100" value="81"> 81% </progress><p >480/1872kcal</p>
+                    <progress max="100" value="81"> 81% </progress><p >480/1872kcal</p>
                     </div>            
                     </div>  
 
@@ -132,21 +132,21 @@
                     <div class="category-jauges">
                     <label for="file">Fibre</label>
                     <div class="jauges">
-                    <progress id="file" max="100" value="60"> 60% </progress><p >480/1872kcal</p>
+                    <progress max="100" value="60"> 60% </progress><p >480/1872kcal</p>
                     </div>
                     </div>            
-                </div>
+        </div>
 
     </section>
 
-    <section class="news">
+    <div class="news">
             <img class="fish" src="svg/kotietbubulles.svg" alt="dessin poisson">
             <p class="info">Le Bo bun est un plat d'origine vietnamienne. Il s’agit d’une salade complète, bien équilibrée et pleine de contraste de saveurs et de textures.</p>
-    </section>
+    </div>
     </div>
     
     <section class="ingredients">
-        <h2>Ingrédients</h2>
+        <h2><strong>Ingrédients</strong></h2>
         <div class="ingredientsContainer sweetine">
             <ul>
                 <li>
@@ -163,11 +163,12 @@
                <li><img class="ingredientsPics" src="svg/menthe.svg" alt="Menthe"><div class="quantityIngredients"><p>2</p></div></li>
 
                <li><img class="ingredientsPics" src="svg/concombre.svg" alt="Concombre"><div class="quantityIngredients"><p>2</p></div></li>
-        </ul>
-        </section>
+            </ul>
+        </div>
+    </section>
     
     <section class="recipes">
-        <h2>Recettes</h2>
+        <h2><strong>Recettes</strong></h2>
         <div class="recette">
             <div class="step"><svg class="stepBtn" width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="15.5" cy="16.5" r="15.5" fill="#FE5F55" fill-opacity="0.75"/>
@@ -215,12 +216,9 @@
     </div>
     
     <div class="buttonKalendar">
-        <button class="button-calendar add-to-calendar">Ajouter au calendrier</button>
+        <button class="button-calendar add-to-calendar" name="buttonAdd" type="button">Ajouter au calendrier</button>
     </div>
 
-    </div>
-    </div>
-    <body>
 <script src="integ.js"></script>
 
 </body>

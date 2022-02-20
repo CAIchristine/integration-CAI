@@ -112,10 +112,10 @@ header {
   background: #fe5f55;
 }
 
-/* .logo {
-  width: 61px;
-  height: 34.41px;
-} */
+.logo {
+  width: 60px;
+  height: 35px;
+}
 
 .nav {
   display: flex;
@@ -196,7 +196,7 @@ label {
   gap: 2%;
 }
 
-.under-menu {
+.underMenu {
   justify-content: space-between;
   margin-top: 1.7rem;
   margin-bottom: 1.5rem;

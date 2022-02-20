@@ -203,7 +203,7 @@ label {
   align-items: center;
   display: flex;
   background-color: #d0c7c1;
-  opacity: 50%;
+  opacity: 70%;
   border-radius: 0.6rem;
 }
 
@@ -367,12 +367,12 @@ li img {
   right: 10px;
 }
 
-.add-to-cart {
+.addToCart {
   box-shadow: 0 8px 16px 0 rgba(9, 7, 126, 0.2),
     0 6px 20px 0 rgba(33, 7, 93, 0.19);
 }
 
-.button-cart {
+.buttonCart {
   background-color: #525c90;
   border-radius: 50%;
   height: 55px;
